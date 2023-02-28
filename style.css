@@ -12,6 +12,38 @@
 
 }
 
+#header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+#header img[src]{
+    max-width: 50px;
+    border-radius: 5px;
+}
+
+#menu {
+    display: flex;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#menu:hover{
+    background-color: #8463d1;
+}
+
+#ul li a {
+
+    text-decoration: none;
+    font-style: none;
+}
+
+/*------- pass card -----------*/
+
+
 body {
     font-size: 1.6rem;
     font-family: 'Rubik', sans-serif;
@@ -58,7 +90,7 @@ section {
 
 #boarding-pass {
     
-    margin: auto;
+    margin: 20px auto 0 auto;
 }
 
 #ticket {
